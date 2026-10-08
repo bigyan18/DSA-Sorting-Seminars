@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{67b7db8b-cc49-4b8a-804d-1b9cd37b671d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{24de1500-27fa-4ed7-8c9e-065ef9693cfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\insertion_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exchange_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binary_insertion_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bubble_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\natural_merge_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\one_phase_merge_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\optimized_bubble_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\quick_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\selection_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shaker_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shell_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\two_phase_merge_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\insertion_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binary_insertion_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bubble_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exchange_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\natural_merge_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\one_phase_merge_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\optimized_bubble_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quick_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\selection_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaker_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shell_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\two_phase_merge_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

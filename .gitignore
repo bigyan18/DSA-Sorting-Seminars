@@ -1,0 +1,46 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Compiled files
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.dll
+*.exp
+*.idb
+*.ipdb
+*.iobj
+
+## Temporary files from external sorts
+*.tmp
+temp_run_*.tmp
+one_phase_run_*.tmp
+natural_run_*.tmp
+in_*.txt
+out_*.txt
+
+## Other
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
