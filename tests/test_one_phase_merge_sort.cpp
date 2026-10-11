@@ -46,3 +46,9 @@ TEST_CASE("One-phase merge - random with duplicates", "[one_phase]") {
     one_phase_merge_sort<int>("in_one_rand.txt", "out_one_rand.txt");
     REQUIRE(read_file("out_one_rand.txt") == std::vector<int>{1, 1, 2, 3, 4, 5, 5, 6, 9});
 }
+
+TEST_CASE("One-phase merge - individual variant", "[one_phase]") {
+    write_file("in_one_variant.txt", { 1, 8, 19, 3, 12, 16, 9, 5 });
+    one_phase_merge_sort<int>("in_one_variant.txt", "out_one_variant.txt");
+    REQUIRE(read_file("out_one_variant.txt") == std::vector<int>{1, 3, 5, 8, 9, 12, 16, 19});
+}

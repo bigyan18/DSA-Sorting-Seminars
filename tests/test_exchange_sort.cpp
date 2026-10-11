@@ -31,3 +31,9 @@ TEST_CASE("Exchange Sort - random with duplicates", "[exchange]") {
     exchange_sort(arr);
     REQUIRE(arr == std::vector<int>{1, 1, 2, 3, 4, 5, 5, 6, 9});
 }
+
+TEST_CASE("Exchange Sort - individual variant", "[exchange]") {
+    std::vector<int> arr = { 1, 8, 19, 3, 12, 16, 9, 5 };
+    exchange_sort(arr);
+    REQUIRE(arr == std::vector<int>{1, 3, 5, 8, 9, 12, 16, 19});
+}

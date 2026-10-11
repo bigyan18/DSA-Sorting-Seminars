@@ -46,3 +46,9 @@ TEST_CASE("Natural merge - random with duplicates", "[natural]") {
     natural_merge_sort<int>("in_nat_rand.txt", "out_nat_rand.txt");
     REQUIRE(read_file("out_nat_rand.txt") == std::vector<int>{1, 1, 2, 3, 4, 5, 5, 6, 9});
 }
+
+TEST_CASE("Natural merge - individual variant", "[natural]") {
+    write_file("in_nat_variant.txt", { 1, 8, 19, 3, 12, 16, 9, 5 });
+    natural_merge_sort<int>("in_nat_variant.txt", "out_nat_variant.txt");
+    REQUIRE(read_file("out_nat_variant.txt") == std::vector<int>{1, 3, 5, 8, 9, 12, 16, 19});
+}
