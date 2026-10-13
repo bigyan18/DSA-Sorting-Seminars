@@ -151,6 +151,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="custom_test_runner.cpp.cpp" />
     <ClCompile Include="test_binary_insertion_sort.cpp" />
     <ClCompile Include="test_bubble_sort.cpp" />
     <ClCompile Include="test_exchange_sort.cpp" />
